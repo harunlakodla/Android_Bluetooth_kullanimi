@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comunataty">
+
+    <Button
+        android:id="@+id/bas_yukari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="bas_yukari"
+        app:layout_constraintEnd_toStartOf="@+id/bas_saga"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bas_asagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="bas_asagi"
+        app:layout_constraintEnd_toStartOf="@+id/bas_saga"
+        app:layout_constraintTop_toBottomOf="@+id/bas_saga" />
+
+    <Button
+        android:id="@+id/bas_sola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:text="bas_sola"
+        app:layout_constraintBottom_toBottomOf="@+id/bas_saga"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bas_saga" />
+
+    <Button
+        android:id="@+id/bas_saga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:text="bas_saga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bas_yukari" />
+
+    <Button
+        android:id="@+id/kol_yukari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="kol_yukari"
+        app:layout_constraintStart_toStartOf="@+id/bas_asagi"
+        app:layout_constraintTop_toBottomOf="@+id/bas_asagi" />
+
+    <Button
+        android:id="@+id/kol_asagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="kol_asagi"
+        app:layout_constraintStart_toStartOf="@+id/kol_yukari"
+        app:layout_constraintTop_toBottomOf="@+id/kol_yukari" />
+
+    <Switch
+        android:id="@+id/agiz_kapat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="agiz_kapat"
+        app:layout_constraintStart_toStartOf="@+id/kol_asagi"
+        app:layout_constraintTop_toBottomOf="@+id/kol_asagi" />
+</androidx.constraintlayout.widget.ConstraintLayout>
